@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="chatweb.js"></script>
+  <style>
+  </style>
+    </head>
+    <body background="/static/images/amarillo.jpg">
+    <table WIDTH="95%">
+        <tr>
+            <td WIDTH="30%">
+               <div class = "top" style=" height:100px; border-style:solid; border-style:solid; border-width:1px 1px 1px 1px"></div>
+               <div class="left" style="overflow-y: scroll; height:500px;  border-style:solid; border-width:1px 1px 1px 1px" role="group" aria-label="..."></div>
+            </td>
+            <td WIDTH="70%">
+                <div class="right" style="overflow-y: scroll; height:570px; border-style:solid; border-width:1px 1px 1px 0px">
+                </div>
+                <div class="bottom" style="height:30px; ">
+                    <div class="input-group">
+                      <input type="text" class="form-control" id="content" placeholder="Introduzca el mensaje">
+                      <span class="input-group-btn">
+                        <button class="btn btn-default" type="button" onclick=send_message()>Enviar</button>
+                      </span>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="chatweb.js"></script>
+    </body>
+</html>
